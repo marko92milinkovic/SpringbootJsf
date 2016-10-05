@@ -1,0 +1,33 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <!--opciono..... redirektuj ako je radnik ulogovan-->
+        <f:event type="preRenderView" listener="#{redirectBean.checkAlreadyLoggedin}" />
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>
+    </h:head>
+    <h:body>
+        <div class="basic-grey">
+            <h1> Welcome! </h1>
+            <form action="${request.contextPath}/appLogin" method="POST">
+                <h:panelGrid columns="3" cellpadding="5" id="grid">
+
+                    <p:outputLabel for="app_username" value="#{msg['user_name']}: " styleClass="label"/>
+                    <p:inputText id="app_username" value="#{mbRadnik.radnik.korisnickoIme}" styleClass="input">
+                        <f:validateRequired/>
+                    </p:inputText>
+                    <p:message for="app_username" display="icon"/>
+
+                    <p:outputLabel for="app_password" value="#{msg['password']}: "/>
+                    <p:password id="app_password" value="#{mbRadnik.radnik.korisnickaSifra}" validatorMessage="niste uneli sifru" styleClass="input">
+                        <f:validateRequired/>
+                    </p:password>
+                    <p:message for="app_password" display="icon"/>
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                </h:panelGrid>			
+                <input type="submit" value="Login" class="button"/>
+            </form>
+        </div>
+    </h:body>
+</html>  

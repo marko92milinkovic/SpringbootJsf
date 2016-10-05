@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+          http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+          http://www.springframework.org/schema/data/jpa
+    http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+" xmlns:ns1="http://www.springframework.org/schema/data/jpa">
+    
+<!--    <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+        <property name="scopes">
+            <map>
+                <entry key="view">
+                    <bean class="projekat.SpringViewJsfScope"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <context:component-scan base-package="projekat"/>-->
+    <!--<context:component-scan base-package="repository"/>-->
+<!--    <context:component-scan base-package="projekat.dao.impl"/>
+    <context:component-scan base-package="projekat.services.impl"/>
+    <context:component-scan base-package="projekat.mb"/>
+    <context:component-scan base-package="projekat.konverteri"/>
+    <jpa:repositories base-package="projekat.repository" entity-manager-factory-ref="emf"/>-->
+ 
+<!--    
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url"
+                  value="jdbc:mysql://localhost:3306/baza" />
+        <property name="username" value="root" />
+        <property name="password" value="root" />
+    </bean>
+        
+     Hibernate 4 SessionFactory Bean definition 
+    <bean id="hibernate4AnnotatedSessionFactory"
+          class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="packagesToScan" value="domen"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect
+                </prop>
+                <prop key="hibernate.show_sql">true</prop>
+            </props>
+        </property>
+    </bean>
+	
+    <bean id="modelDAO" class="projekat.dao.impl.ModelDAOImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+    <bean id="radnikDAO" class="projekat.dao.impl.RadnikDAOImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+    </bean>
+    <bean id="automobilDAO" class="projekat.dao.impl.AutomobilDAOImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+    <bean id="klijentDAO" class="projekat.dao.impl.KlijentDAOImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+    <bean id="zaduzenjeDAO" class="projekat.dao.impl.ZaduzenjeDAOImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+    	<bean id="personService" class="com.journaldev.spring.service.PersonServiceImpl">
+            <property name="personDAO" ref="personDAO"></property>
+    </bean>
+    <context:component-scan base-package="com.journaldev.spring" />
+	
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+	
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+    </bean>
+
+    <bean id="emf"
+          class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="packagesToScan" value="domen" />
+        <property name="dataSource" ref="dataSource" />
+
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">create</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+            </props>
+        </property>
+
+        <property name="persistenceProvider">
+            <bean class="org.hibernate.jpa.HibernatePersistenceProvider"></bean>
+        </property>
+
+    </bean>-->
+
+</beans>

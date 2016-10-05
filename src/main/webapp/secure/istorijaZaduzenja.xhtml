@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="../WEB-INF/osnovniTem.xhtml">
+
+            <ui:define name="content">
+                
+                <h2>#{msg['preview_debits_for_client']} #{mbKlijent.klijent}</h2>
+                <h:form id="form">
+                    <h:panelGrid id="maingrid" width="600px">
+                        <p:growl id="msgs" showDetail="true" life="2000" />
+                        <p:dataTable id="singleDT" var="zaduzenje" value="#{mbZaduzenja.pronadji()}" 
+                                     selectionMode="single"  selection="#{mbZaduzenja.zaduzenje}" rowKey="#{zaduzenje.zaduzenjePK}"
+                                     style="margin-bottom:50px;" >
+                            <p:ajax event="rowSelect" update=":form:zad, :form:razd" listener="#{mbZaduzenja.omoguciIzmenu()}"/>
+                            <p:column headerText="#{msg['vehicle']}">
+                                <h:outputText value="#{zaduzenje.automobil.model} " />
+                                <h:outputText value="#{zaduzenje.automobil.registarskiBroj}"/>
+                            </p:column>
+                            <p:column headerText="#{msg['date_since_using']}">
+                                <h:outputText value="#{zaduzenje.datumOD}">
+                                    <f:convertDateTime pattern="dd.MM.yyyy"/>
+                                </h:outputText>
+                            </p:column>
+                            <p:column headerText="#{msg['date_until_using']}">
+                                <h:outputText value="#{zaduzenje.datumDO}">
+                                    <f:convertDateTime pattern="dd.MM.yyyy"/>
+                                </h:outputText>
+                            </p:column> 
+                        </p:dataTable>
+
+                        <p:panel id="zad" header="#{msg['debit']}">
+
+                            <h:panelGrid columns="2" cellpadding="10" id="grid">
+                                <p:outputLabel value="#{msg['date_since_using']}: " for="txtDatOd"/>
+                                <p:inputText id="txtDatOd" value="#{mbZaduzenja.zaduzenje.datumOD}" 
+                                             disabled="true">
+                                    <f:convertDateTime pattern="dd.MM.yyyy" timeZone="GMT+1"/>
+                                </p:inputText>
+                                <p:outputLabel value="#{msg['debit_executed_by']}: " for="txtZaduzio"/>
+
+                                <p:inputText id="txtZaduzio" value="#{mbZaduzenja.zaduzenje.zaduzio}" 
+                                             validatorMessage="#{msg['field_is_mandatory']}" disabled="true">
+                                    <f:validateRequired/>
+                                </p:inputText>
+                            </h:panelGrid> 
+                        </p:panel> 
+                        <p:panel id="razd" header="#{msg['discharge']}" >
+                            <h:panelGrid columns="2" cellpadding="10" >
+                                <p:outputLabel value="#{msg['date_until_using']}: " for="txtDatDo"/>
+
+                                <p:calendar id="txtDatDo" disabled="#{!mbZaduzenja.izmena}"
+                                            value="#{mbZaduzenja.zaduzenje.datumDO}" pattern="dd.MM.yyyy"/>
+
+                                <p:outputLabel value="#{msg['discharged_by']} " for="txtRazduzio"/>
+                                <p:inputText id="txtRazduzio" disabled="true" value="#{mbZaduzenja.zaduzenje.razduzio}" 
+                                             validatorMessage="#{msg['field_is_mandatory']}">
+                                    <f:validateRequired/>
+                                </p:inputText>
+                                <p:commandButton value="#{msg['save_changes']}" disabled="#{!mbZaduzenja.izmena}"
+                                                 update="form" action="#{mbZaduzenja.sacuvajIzmene()}"/>
+                            </h:panelGrid> 
+                        </p:panel>
+                    </h:panelGrid>
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                </h:form>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

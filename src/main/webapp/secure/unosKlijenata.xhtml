@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="../WEB-INF/osnovniTem.xhtml">
+
+            <ui:define name="content" >
+                <h2>
+                    <h:outputText value="#{msg['enter_new_klijent']}" />
+                </h2>
+                <h:form id="frm">
+
+                    <p:panel style="width: 400px">
+
+                        <h:panelGrid id="grid" columns="3" cellpadding="5">
+                            <p:outputLabel value="#{msg['first_name']}: " for="txtIme"/>
+                            <p:inputText value="#{mbUnosKlijenata.klijent.ime}" id="txtIme">
+                                <f:validateRequired/>
+                            </p:inputText>
+                            <p:message for="txtIme" display="icon"/>
+
+                            <p:outputLabel value="#{msg['last_name']}: " for="txtPrezime"/>
+                            <p:inputText value="#{mbUnosKlijenata.klijent.prezime}" id="txtPrezime">
+                                <f:validateRequired/>
+                            </p:inputText>
+                            <p:message for="txtPrezime" display="icon"/>
+
+                            <p:outputLabel value="#{msg['personal_id']}: " for="txtJmbg"/>
+                            <p:inputText value="#{mbUnosKlijenata.klijent.jmbg}" id="txtJmbg">
+                                <f:validator validatorId="jmbgVal" />
+                            </p:inputText>
+                            <p:message for="txtJmbg" display="text"/>
+
+                            <p:outputLabel value="#{msg['phone_number']}: " for="txtPhoneNumber"/>
+                            <p:inputText value="#{mbUnosKlijenata.klijent.telefon}" id="txtPhoneNumber">
+                                <f:validateRequired/>
+                            </p:inputText>
+                            <p:message for="txtPhoneNumber" display="icon"/>
+                        </h:panelGrid>
+
+                        <p:fieldset legend="#{msg['address']}" style="margin-bottom:20px">
+
+                            <h:panelGrid columns="3" cellpadding="5">
+                                <p:outputLabel value="#{msg['street_and_number']}: " for="txtUlica"/>
+                                <p:inputText value="#{mbUnosKlijenata.klijent.adresa}" id="txtUlica">
+                                    <f:validateRequired/>
+                                </p:inputText>
+                                <p:message for="txtUlica" display="icon"/>
+
+                                <p:outputLabel value="#{msg['city']}: " for="cmbMesto"/>
+                                <p:selectOneMenu value="#{mbUnosKlijenata.klijent.mesto}" 
+                                                 converter="#{mestoKonverter}" id="cmbMesto" style="width: 180px" required="true">
+                                    <f:selectItem itemValue="" noSelectionOption="true"/>
+                                    <f:selectItems value="#{mbUnosKlijenata.listaMesta}" var="mesto"
+                                                   itemValue="#{mesto}" itemLabel="#{mesto.naziv}"/>
+                                </p:selectOneMenu>
+                                <p:message for="cmbMesto" display="icon"/>
+
+                            </h:panelGrid>
+                        </p:fieldset>
+                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> 
+
+                        <p:commandButton id="btn" value="#{msg['save']}" action="#{mbUnosKlijenata.sacuvaj()}"
+                                         update="frm"/>
+                    </p:panel>
+                </h:form>
+            </ui:define>
+        </ui:composition>
+
+    </h:body>
+
+
+
+
+</html>
+

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="css/default.css"/>
+        <h:outputStylesheet name="css/cssLayout.css"/>
+        <title>Facelets Template</title>
+    </h:head>
+
+    <h:body>
+        <div id="top" class="top">
+            <ui:insert name="top">
+                <img src="../resources/pictures/header.jpg" height="100%" width="100%"/>
+            </ui:insert>
+        </div>
+        <div>
+            <div id="left">
+                <ui:insert name="left">
+                    <h:form>
+                        <p:panelMenu style="width:200px">
+                            <p:submenu label="#{msg['entry']}">
+                                <p:menuitem action="secure/unosKlijenata.xhtml?faces-redirect=true" value="#{msg['client_entry']}" ajax="false"/>
+                                <p:menuitem action="secure/unosAutomobila.xhtml?faces-redirect=true" value="#{msg['vehicle_entry']}" ajax="false" />
+                            </p:submenu>
+                            <p:submenu label="#{msg['searching']}">
+                                <p:menuitem action="pretragaKlijenata_1.xhtml?faces-redirect=true" value="#{msg['client_searching']}" ajax="false"/>
+                            </p:submenu>
+                        </p:panelMenu>
+                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> 
+                    </h:form>
+                    <h:panelGrid >
+
+                        <h:form>
+                            <h:panelGrid columns="2">
+
+                                <p:outputLabel value="#{msg['language']}:"  />
+                                <p:selectOneMenu value="#{language.localeCode}" onchange="submit()"
+                                                 valueChangeListener="#{language.countryLocaleCodeChanged}">
+                                    <f:selectItems value="#{language.countriesInMap}" /> 
+                                </p:selectOneMenu>
+
+                            </h:panelGrid>
+
+                        </h:form>
+                    </h:panelGrid>
+                   
+                </ui:insert>
+            </div>
+            <div id="content" class="left_content">
+                <ui:insert name="content">Content</ui:insert>
+            </div>
+            <div id="right">
+
+                <ui:insert name="right">
+
+                </ui:insert>
+            </div>
+        </div>
+    </h:body>
+
+</html>

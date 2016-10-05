@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="../WEB-INF/osnovniTem.xhtml">
+
+            <ui:define name="content">
+                <p:growl autoUpdate="true" id="growl"/>
+
+                <h:panelGrid columns="2" id="grid">
+                    <h:form id="frm">
+                        <p:dataTable id="singleDT" var="klijent" value="#{mbUnosKlijenata.filtriraniKlijenti}" 
+                                     selectionMode="single"  selection="#{mbKlijent.klijent}" rowKey="#{klijent.klijentID}"
+                                     rows="10" paginator="true"
+                                     editingRow="true" emptyMessage="#{msg['client_list_is_empty']}">
+                            <p:ajax event="rowSelect"/>
+                            <f:facet name="header">
+                                <p:outputPanel>
+                                    <h:outputText value="#{msg['searching']} " />
+
+                                    <p:inputText id="filter" value="#{mbUnosKlijenata.filter}" 
+                                                 style="width:150px" placeholder="#{msg['enter_keyword']}">
+                                      <p:ajax />
+
+                                    </p:inputText>
+                                    <p:commandButton value="#{msg['search']}" update="singleDT" action="#{mbUnosKlijenata.vratiFilt()}"/>
+                                </p:outputPanel>
+                            </f:facet>
+
+
+                            <p:column headerText="#{msg['first_name']}">
+                                <h:outputText value="#{klijent.ime}" />
+                            </p:column>
+
+                            <p:column headerText="#{msg['last_name']}">
+                                <h:outputText value="#{klijent.prezime}" />
+                            </p:column>
+
+                            <p:column headerText="#{msg['address']}">
+                                <h:outputText value="#{klijent.adresa}" />
+                            </p:column>
+                        </p:dataTable>
+                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> 
+                    </h:form>
+                    <h:form id="frm2">
+
+                        <h:panelGrid>
+                            <p:commandButton id="btnIzmeni" value="#{msg['edit']}" 
+                                             action="izmenaKlijenta.xhtml?faces-redirect=true"/>
+
+                            <p:commandButton id="btnObrisi" value="#{msg['delete']}" action="#{mbUnosKlijenata.obrisiKlijenta(mbKlijent.klijent)}"
+                                             update=":grid"/>
+                        </h:panelGrid>
+                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> 
+                    </h:form>
+
+
+                </h:panelGrid>
+                <h:form>
+                    <h:panelGrid columns="2" cellpadding="5">
+                        <p:commandButton id="btnDodaj" value="#{msg['add_debit']}" 
+                                         action="unosZaduzenja.xhtml?faces-redirect=true" style="margin-left: 50px"/>
+
+                        <p:commandButton id="btnPregled" value="#{msg['overview_history']}"
+                                         style="margin-left: 250px "  action="istorijaZaduzenja.xhtml?faces-redirect=true" />
+                    </h:panelGrid>
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> 
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

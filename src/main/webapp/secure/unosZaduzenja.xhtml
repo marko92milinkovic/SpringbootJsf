@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="../WEB-INF/osnovniTem.xhtml">
+
+            <ui:define name="content" >
+
+                <h:form id="frm">
+                    <p:growl id="growl" autoUpdate="true" life="2000"/>
+                    <p:panel id="panel" style="height: 650px">
+                        <h2>#{msg['debit_entry_for_client']} #{mbKlijent.klijent}</h2>
+
+                        <p:dataTable var="automobil" value="#{mbIzborAutomobila.vratiAutomobileIzBaze()}" widgetVar="tabela"
+                                     emptyMessage="#{msg['no_results']}" filteredValue="#{mbIzborAutomobila.filtriraniAutomobili}"
+                                     selectionMode="single" selection="#{mbIzborAutomobila.automobil}" 
+                                     rowKey="#{automobil.automobilID}"  style="margin: 0 10%; height: 350px"
+                                     paginator="true" rows="8" >    
+                            <p:ajax event="rowSelect"/> 
+
+                            <f:facet name="header">
+                                <p:outputPanel>
+                                    <h:outputText value="#{msg['searching_all_fields']}: " />
+                                    <p:inputText id="globalFilter" onkeyup="PF('tabela').filter()" style="width:150px" placeholder="Unesite kljucnu rec"/>
+                                </p:outputPanel>
+                            </f:facet>
+
+                            <p:column filterBy="#{automobil.registarskiBroj}" headerText="#{msg['reg_number']}"  filterMatchMode="contains">
+                                <h:outputText value="#{automobil.registarskiBroj}" />
+                            </p:column>
+
+                            <p:column filterBy="#{automobil.brojSasije}" headerText="#{msg['chassis_number']}"  filterMatchMode="contains">
+                                <h:outputText value="#{automobil.brojSasije}" />
+                            </p:column>
+
+
+                            <p:column filterBy="#{automobil.model.marka1}" headerText="#{msg['brand']}" filterMatchMode="exact">
+                                <f:facet name="filter">
+                                    <p:selectOneMenu onchange="PF('tabela').filter()" value="#{mbIzborAutomobila.marka}" converter="#{markaKonverter}">
+                                        <p:ajax listener="#{mbIzborAutomobila.izmeniModele()}" update=":frm"/>
+                                        <f:selectItem itemLabel="#{msg['select_brand']}" itemValue="#{null}" noSelectionOption="true" />
+                                        <f:selectItems value="#{mbIzborAutomobila.listaMarki}" />
+                                    </p:selectOneMenu>
+                                </f:facet>
+                                <h:outputText value="#{automobil.model.marka1}" />
+                            </p:column>
+
+                            <p:column filterBy="#{automobil.model}" headerText="#{msg['model']}" filterMatchMode="exact">
+                                <f:facet name="filter">
+                                    <p:selectOneMenu onchange="PF('tabela').filter()" >
+                                        <f:selectItem itemLabel="#{msg['select_model']}" itemValue="#{null}" noSelectionOption="true" />
+                                        <f:selectItems value="#{mbIzborAutomobila.listaModela}" />
+                                    </p:selectOneMenu>
+                                </f:facet>
+                                <h:outputText value="#{automobil.model}" />
+                            </p:column>
+
+                        </p:dataTable>
+                        <br/>
+                        <h:panelGrid id="grid" columns="3" cellpadding="5">
+                            <p:outputLabel value="#{msg['date_since_using']}:" for="txtDatOd" />
+                            <p:calendar id="txtDatOd"
+                                        value="#{mbUnosZaduzenja.zaduzenje.datumOD}" pattern="dd.MM.yyyy"/>
+                            <p:message for="txtDatOd" display="icon"/>
+
+                            <p:outputLabel value="#{msg['debit_executed_by']}: " for="txtZaduzuje" />
+                            <p:inputText id="txtZaduzuje" value="#{mbRadnik.radnik}" 
+                                         validatorMessage="#{msg['field_is_mandatory']}" disabled="true">
+                                <f:validateRequired />
+                            </p:inputText>
+
+                        </h:panelGrid>
+                        <br/>
+                        <p:commandButton action="#{mbUnosZaduzenja.dodajZaduzenje()}" update="frm" value="#{msg['add_item']}"/>
+
+                        <p:dataTable id="singleDT" var="zaduzenje" value="#{mbUnosZaduzenja.listaZaduzenja}" 
+                                     emptyMessage="#{msg['debit_list_is_empty']}" style="height: 150px">
+
+                            <p:column headerText="#{msg['vehicle']}">
+                                <h:outputText value="#{zaduzenje.automobil.model} " />
+                                <h:outputText value="#{zaduzenje.automobil.registarskiBroj}"/>
+                            </p:column>
+                            <p:column headerText="#{msg['date_since_using']}">
+                                <h:outputText value="#{zaduzenje.datumOD}">
+                                    <f:convertDateTime pattern="dd.MM.yyyy" type="date" timeZone="#{java.util.TimeZone.getDefault()}"/>
+                                </h:outputText>
+                            </p:column> 
+                        </p:dataTable>
+                        <br/>
+                        <p:commandButton value="#{msg['save_debits']}" action="#{mbUnosZaduzenja.zapamtiZaduzenja()}" 
+                                         update="frm"/>
+
+                    </p:panel>
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

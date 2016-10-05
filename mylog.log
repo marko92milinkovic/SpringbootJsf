@@ -1,0 +1,704 @@
+2016-09-21 00:42:57.452 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:42:57.460 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:42:57.461 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:42:57.462 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:42:57.462 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:42:57.548  INFO 5241 --- [restartedMain] projekat.Application                     : Starting Application on marko-Aspire-5560 with PID 5241 (/home/marko/NetBeansProjects/SpringBootPRojekat/src/main/webapp/WEB-INF/classes started by marko in /home/marko/NetBeansProjects/SpringBootPRojekat)
+2016-09-21 00:42:57.549 DEBUG 5241 --- [restartedMain] projekat.Application                     : Running with Spring Boot v1.3.5.RELEASE, Spring v4.2.6.RELEASE
+2016-09-21 00:42:57.549  INFO 5241 --- [restartedMain] projekat.Application                     : No active profile set, falling back to default profiles: default
+2016-09-21 00:43:01.551 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [applicationConfig: [classpath:/application.properties]] PropertySource with search precedence immediately lower than [applicationConfigurationProperties]
+2016-09-21 00:43:01.552 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Removing [applicationConfigurationProperties] PropertySource
+2016-09-21 00:43:01.553 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Removing [defaultProperties] PropertySource
+2016-09-21 00:43:01.574  WARN 5241 --- [restartedMain] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ConfigurationScopes.getCustomScopeConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2016-09-21 00:43:03.566 DEBUG 5241 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2016-09-21 00:43:03.567  INFO 5241 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5907 ms
+2016-09-21 00:43:04.250 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.252 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.254 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:04.255 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:04.256 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:04.279 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.280 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.281 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:04.281 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:04.282 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:04.291 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.291 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.292 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:04.292 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:04.293 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:04.321 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.322 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.323 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:04.323 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:04.324 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:04.389 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.390 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.390 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:04.391 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:04.391 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:04.523 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.524 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.525 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:04.525 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:04.526 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:04.545 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.545 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.545 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:04.546 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:04.546 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:04.575 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.576 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:04.576 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:04.577 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:04.577 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:05.169  WARN 5241 --- [localhost-startStop-1] o.a.m.c.a._ClassByteCodeAnnotationFilter : Unknown tag in constants pool: 18
+2016-09-21 00:43:05.206  WARN 5241 --- [localhost-startStop-1] o.a.m.c.a._ClassByteCodeAnnotationFilter : Unknown tag in constants pool: 18
+2016-09-21 00:43:07.347  WARN 5241 --- [localhost-startStop-1] o.a.m.webapp.AbstractFacesInitializer    : 
+
+*******************************************************************
+*** WARNING: Apache MyFaces-2 is running in DEVELOPMENT mode.   ***
+***                                         ^^^^^^^^^^^         ***
+*** Do NOT deploy to your live server(s) without changing this. ***
+*** See Application#getProjectStage() for more information.     ***
+*******************************************************************
+
+2016-09-21 00:43:07.422 ERROR 5241 --- [localhost-startStop-1] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: java.io.ObjectStreamClass cannot be cast to java.lang.String
+	at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1421)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:719)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:833)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1609)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1521)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1781)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1353)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:373)
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1623)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1089)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5268)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-09-21 00:43:07.728 DEBUG 5241 --- [localhost-startStop-1] o.s.web.filter.DelegatingFilterProxy     : Initializing filter 'springSecurityFilterChain'
+2016-09-21 00:43:10.745 DEBUG 5241 --- [localhost-startStop-1] projekat.mb.MbRadnik                     : *** Init mbRadnik
+2016-09-21 00:43:11.044 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.045 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.045 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.045 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.046 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.068 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.069 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.069 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.069 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.070 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.071 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.072 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.072 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.073 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.074 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.089 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.090 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.091 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.092 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.092 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.110 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.110 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.111 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.112 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.112 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.113 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.114 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.114 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.115 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.115 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.115 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.116 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.116 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.116 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.117 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.124 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.124 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.125 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.125 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.125 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.126 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.126 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.126 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.127 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.127 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.128 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.128 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.128 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.129 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.129 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.160 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.161 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.161 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.161 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.162 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.170 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.171 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.171 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.171 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.172 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.185 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.185 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.186 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.186 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.186 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.196 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.197 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.197 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.197 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.198 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.204 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.205 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.205 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.206 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.206 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.212 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.212 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.213 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.213 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.213 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.219 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.219 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.220 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.220 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.220 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.234 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.234 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.234 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.235 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.235 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.289 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.290 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.291 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.291 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.291 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.298 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.298 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.298 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.299 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.299 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.300 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.301 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.301 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.301 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.302 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.303 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.303 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.305 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.306 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.306 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.307 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.308 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.308 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.309 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.309 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.310 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.311 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.311 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.311 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.313 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.315 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.315 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.316 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.316 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.316 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.318 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.319 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.319 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.320 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.320 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.332 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.333 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.334 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.334 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.334 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.342 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.343 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.343 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.343 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.344 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.345 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.346 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.346 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.346 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.347 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.348 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.349 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.349 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.350 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.350 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.351 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.352 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.352 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.353 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.353 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.354 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.355 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.355 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.355 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.356 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.358 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.359 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.359 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.359 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.359 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.364 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.365 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.365 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.366 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.367 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.370 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.370 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-21 00:43:11.371 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-21 00:43:11.371 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-21 00:43:11.371 DEBUG 5241 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-21 00:43:11.381 DEBUG 5241 --- [localhost-startStop-1] o.s.web.filter.DelegatingFilterProxy     : Filter 'springSecurityFilterChain' configured successfully
+2016-09-21 00:43:11.395 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2016-09-21 00:43:13.412  INFO 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e133b30: startup date [Wed Sep 21 00:42:57 CEST 2016]; root of context hierarchy
+2016-09-21 00:43:13.550 DEBUG 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking for request mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e133b30: startup date [Wed Sep 21 00:42:57 CEST 2016]; root of context hierarchy
+2016-09-21 00:43:13.575 DEBUG 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 request handler methods found on class projekat.BasicController: {public void projekat.BasicController.saveClient(projekat.domen.Klijent) throws java.lang.Exception={[/rest/client],consumes=[application/json]}, public java.util.List projekat.BasicController.getAllAvailableCars() throws java.lang.Exception={[/rest/cars],produces=[application/json]}, projekat.domen.Automobil projekat.BasicController.getAutomobil(java.lang.Integer)={[/rest/cars/{id}],produces=[application/json]}, projekat.domen.Radnik projekat.BasicController.getRadnik(java.lang.String)={[/rest/employees/{username}],produces=[application/json]}, java.util.List projekat.BasicController.getAllMesto() throws java.lang.Exception={[/rest/places],produces=[application/json]}}
+2016-09-21 00:43:13.580  INFO 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/rest/client],consumes=[application/json]}" onto public void projekat.BasicController.saveClient(projekat.domen.Klijent) throws java.lang.Exception
+2016-09-21 00:43:13.583  INFO 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/rest/cars],produces=[application/json]}" onto public java.util.List<projekat.domen.Automobil> projekat.BasicController.getAllAvailableCars() throws java.lang.Exception
+2016-09-21 00:43:13.585  INFO 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/rest/cars/{id}],produces=[application/json]}" onto projekat.domen.Automobil projekat.BasicController.getAutomobil(java.lang.Integer)
+2016-09-21 00:43:13.586  INFO 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/rest/employees/{username}],produces=[application/json]}" onto projekat.domen.Radnik projekat.BasicController.getRadnik(java.lang.String)
+2016-09-21 00:43:13.587  INFO 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/rest/places],produces=[application/json]}" onto java.util.List<projekat.domen.Mesto> projekat.BasicController.getAllMesto() throws java.lang.Exception
+2016-09-21 00:43:13.595 DEBUG 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 request handler methods found on class org.springframework.boot.autoconfigure.web.BasicErrorController: {public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}, public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}}
+2016-09-21 00:43:13.602  INFO 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-21 00:43:13.604  INFO 5241 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-21 00:43:13.685 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Looking for URL mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e133b30: startup date [Wed Sep 21 00:42:57 CEST 2016]; root of context hierarchy
+2016-09-21 00:43:13.689 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2016-09-21 00:43:13.692 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2016-09-21 00:43:13.692 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2016-09-21 00:43:13.693 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2016-09-21 00:43:13.694 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor': no URL paths identified
+2016-09-21 00:43:13.694 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2016-09-21 00:43:13.695 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2016-09-21 00:43:13.701 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'application': no URL paths identified
+2016-09-21 00:43:13.707 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2016-09-21 00:43:13.708 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+2016-09-21 00:43:13.711 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'markaKonverter': no URL paths identified
+2016-09-21 00:43:13.711 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'modelKonverter': no URL paths identified
+2016-09-21 00:43:13.712 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'automobilKonverter': no URL paths identified
+2016-09-21 00:43:13.712 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mestoKonverter': no URL paths identified
+2016-09-21 00:43:13.713 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'modelDAOImpl': no URL paths identified
+2016-09-21 00:43:13.713 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'automobilDAOImpl': no URL paths identified
+2016-09-21 00:43:13.714 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'klijentDAOImpl': no URL paths identified
+2016-09-21 00:43:13.715 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'zaduzenjeDAOImpl': no URL paths identified
+2016-09-21 00:43:13.716 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'radnikDAOImpl': no URL paths identified
+2016-09-21 00:43:13.720 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'configurationScopes': no URL paths identified
+2016-09-21 00:43:13.721 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'securityConfig': no URL paths identified
+2016-09-21 00:43:13.721 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'basicController': no URL paths identified
+2016-09-21 00:43:13.722 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'userDetailsService': no URL paths identified
+2016-09-21 00:43:13.722 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'restTemplateFactory': no URL paths identified
+2016-09-21 00:43:13.723 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'customLogoutHandler': no URL paths identified
+2016-09-21 00:43:13.723 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'automobilServiceImpl': no URL paths identified
+2016-09-21 00:43:13.740 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mestoServiceRestImpl': no URL paths identified
+2016-09-21 00:43:13.741 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'klijentServiceImpl': no URL paths identified
+2016-09-21 00:43:13.741 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'klijentServiceRESTImpl': no URL paths identified
+2016-09-21 00:43:13.742 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'modelServiceImpl': no URL paths identified
+2016-09-21 00:43:13.742 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mestoServiceImpl': no URL paths identified
+2016-09-21 00:43:13.743 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'zaduzenjeServiceImpl': no URL paths identified
+2016-09-21 00:43:13.752 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'radnikServiceImpl': no URL paths identified
+2016-09-21 00:43:13.753 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'initializer': no URL paths identified
+2016-09-21 00:43:13.753 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbRadnik': no URL paths identified
+2016-09-21 00:43:13.754 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'redirectBean': no URL paths identified
+2016-09-21 00:43:13.754 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbKlijent': no URL paths identified
+2016-09-21 00:43:13.755 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbIzborAutomobila': no URL paths identified
+2016-09-21 00:43:13.755 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbUnosKlijenata': no URL paths identified
+2016-09-21 00:43:13.756 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbUnosAutomobila': no URL paths identified
+2016-09-21 00:43:13.757 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbZaduzenja': no URL paths identified
+2016-09-21 00:43:13.757 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbUnosZaduzenja': no URL paths identified
+2016-09-21 00:43:13.758 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'databaseConfig': no URL paths identified
+2016-09-21 00:43:13.758 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'getCustomScopeConfigurer': no URL paths identified
+2016-09-21 00:43:13.759 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration': no URL paths identified
+2016-09-21 00:43:13.759 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationManagerBuilder': no URL paths identified
+2016-09-21 00:43:13.760 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'enableGlobalAuthenticationAutowiredConfigurer': no URL paths identified
+2016-09-21 00:43:13.760 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': no URL paths identified
+2016-09-21 00:43:13.761 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'delegatingApplicationListener': no URL paths identified
+2016-09-21 00:43:13.761 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'webSecurityExpressionHandler': no URL paths identified
+2016-09-21 00:43:13.762 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springSecurityFilterChain': no URL paths identified
+2016-09-21 00:43:13.762 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'privilegeEvaluator': no URL paths identified
+2016-09-21 00:43:13.763 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autowiredWebSecurityConfigurersIgnoreParents': no URL paths identified
+2016-09-21 00:43:13.763 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration': no URL paths identified
+2016-09-21 00:43:13.764 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectPostProcessor': no URL paths identified
+2016-09-21 00:43:13.764 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration': no URL paths identified
+2016-09-21 00:43:13.766 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestDataValueProcessor': no URL paths identified
+2016-09-21 00:43:13.767 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': no URL paths identified
+2016-09-21 00:43:13.767 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.transaction.config.internalTransactionAdvisor': no URL paths identified
+2016-09-21 00:43:13.768 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'transactionAttributeSource': no URL paths identified
+2016-09-21 00:43:13.768 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'transactionInterceptor': no URL paths identified
+2016-09-21 00:43:13.771 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.transaction.config.internalTransactionalEventListenerFactory': no URL paths identified
+2016-09-21 00:43:13.771 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dataSource': no URL paths identified
+2016-09-21 00:43:13.772 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'sessionFactory': no URL paths identified
+2016-09-21 00:43:13.772 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'transactionManager': no URL paths identified
+2016-09-21 00:43:13.773 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.aop.config.internalAutoProxyCreator': no URL paths identified
+2016-09-21 00:43:13.773 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'servletRegistrationBean': no URL paths identified
+2016-09-21 00:43:13.774 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'rewriteFilter': no URL paths identified
+2016-09-21 00:43:13.774 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified
+2016-09-21 00:43:13.774 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.774 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified
+2016-09-21 00:43:13.774 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified
+2016-09-21 00:43:13.777 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration': no URL paths identified
+2016-09-21 00:43:13.779 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'websocketContainerCustomizer': no URL paths identified
+2016-09-21 00:43:13.780 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.783 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat': no URL paths identified
+2016-09-21 00:43:13.783 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'tomcatEmbeddedServletContainerFactory': no URL paths identified
+2016-09-21 00:43:13.783 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.783 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'embeddedServletContainerCustomizerBeanPostProcessor': no URL paths identified
+2016-09-21 00:43:13.783 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration': no URL paths identified
+2016-09-21 00:43:13.784 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServlet': no URL paths identified
+2016-09-21 00:43:13.784 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServletRegistration': no URL paths identified
+2016-09-21 00:43:13.784 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.mvc.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.784 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': no URL paths identified
+2016-09-21 00:43:13.792 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store': no URL paths identified
+2016-09-21 00:43:13.792 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.795 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration': no URL paths identified
+2016-09-21 00:43:13.796 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'error': no URL paths identified
+2016-09-21 00:43:13.796 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameViewResolver': no URL paths identified
+2016-09-21 00:43:13.797 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.797 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorAttributes': no URL paths identified
+2016-09-21 00:43:13.797 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'basicErrorController': no URL paths identified
+2016-09-21 00:43:13.797 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageCustomizer': no URL paths identified
+2016-09-21 00:43:13.797 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'preserveErrorControllerTargetClassPostProcessor': no URL paths identified
+2016-09-21 00:43:13.798 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration': no URL paths identified
+2016-09-21 00:43:13.798 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2016-09-21 00:43:13.798 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2016-09-21 00:43:13.799 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2016-09-21 00:43:13.799 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2016-09-21 00:43:13.799 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2016-09-21 00:43:13.800 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2016-09-21 00:43:13.800 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2016-09-21 00:43:13.801 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2016-09-21 00:43:13.802 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcConversionService': no URL paths identified
+2016-09-21 00:43:13.803 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcValidator': no URL paths identified
+2016-09-21 00:43:13.803 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcPathMatcher': no URL paths identified
+2016-09-21 00:43:13.803 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2016-09-21 00:43:13.803 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2016-09-21 00:43:13.803 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2016-09-21 00:43:13.804 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2016-09-21 00:43:13.804 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2016-09-21 00:43:13.804 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcViewResolver': no URL paths identified
+2016-09-21 00:43:13.804 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration': no URL paths identified
+2016-09-21 00:43:13.805 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconHandlerMapping': no URL paths identified
+2016-09-21 00:43:13.805 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconRequestHandler': no URL paths identified
+2016-09-21 00:43:13.805 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': no URL paths identified
+2016-09-21 00:43:13.806 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultViewResolver': no URL paths identified
+2016-09-21 00:43:13.806 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestContextFilter': no URL paths identified
+2016-09-21 00:43:13.806 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewResolver': no URL paths identified
+2016-09-21 00:43:13.807 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.resources.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.807 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.807 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'hiddenHttpMethodFilter': no URL paths identified
+2016-09-21 00:43:13.807 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpPutFormContentFilter': no URL paths identified
+2016-09-21 00:43:13.808 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.AuditAutoConfiguration$AuditEventRepositoryConfiguration': no URL paths identified
+2016-09-21 00:43:13.808 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'auditEventRepository': no URL paths identified
+2016-09-21 00:43:13.808 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.AuditAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.808 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'auditListener': no URL paths identified
+2016-09-21 00:43:13.809 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationAuditListener': no URL paths identified
+2016-09-21 00:43:13.809 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authorizationAuditListener': no URL paths identified
+2016-09-21 00:43:13.809 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.AuthenticationManagerConfiguration$AuthenticationManagerConfigurationListener': no URL paths identified
+2016-09-21 00:43:13.810 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.AuthenticationManagerConfiguration': no URL paths identified
+2016-09-21 00:43:13.810 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationManager': no URL paths identified
+2016-09-21 00:43:13.810 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootAuthenticationConfigurerAdapter': no URL paths identified
+2016-09-21 00:43:13.811 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.BootGlobalAuthenticationConfiguration': no URL paths identified
+2016-09-21 00:43:13.812 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'bootGlobalAuthenticationConfigurationAdapter': no URL paths identified
+2016-09-21 00:43:13.813 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.814 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationEventPublisher': no URL paths identified
+2016-09-21 00:43:13.814 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'securityProperties': no URL paths identified
+2016-09-21 00:43:13.815 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$ManagementWebSecurityConfigurerAdapter': no URL paths identified
+2016-09-21 00:43:13.815 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$ManagementSecurityPropertiesConfiguration': no URL paths identified
+2016-09-21 00:43:13.815 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.816 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'ignoredPathsWebSecurityConfigurerAdapter': no URL paths identified
+2016-09-21 00:43:13.818 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.819 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.jta.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.819 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$JdbcTemplateConfiguration': no URL paths identified
+2016-09-21 00:43:13.820 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jdbcTemplate': no URL paths identified
+2016-09-21 00:43:13.820 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'namedParameterJdbcTemplate': no URL paths identified
+2016-09-21 00:43:13.820 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$DataSourceInitializerConfiguration': no URL paths identified
+2016-09-21 00:43:13.820 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dataSourceInitializer': no URL paths identified
+2016-09-21 00:43:13.820 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$CommonsDbcpPoolDataSourceMetadataProviderConfiguration': no URL paths identified
+2016-09-21 00:43:13.821 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'commonsDbcpPoolDataSourceMetadataProvider': no URL paths identified
+2016-09-21 00:43:13.825 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$TomcatDataSourcePoolMetadataProviderConfiguration': no URL paths identified
+2016-09-21 00:43:13.825 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'tomcatPoolDataSourceMetadataProvider': no URL paths identified
+2016-09-21 00:43:13.826 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration': no URL paths identified
+2016-09-21 00:43:13.826 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.826 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.datasource.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.827 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dataSourceInitializerPostProcessor': no URL paths identified
+2016-09-21 00:43:13.827 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration': no URL paths identified
+2016-09-21 00:43:13.827 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'openEntityManagerInViewInterceptor': no URL paths identified
+2016-09-21 00:43:13.828 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration': no URL paths identified
+2016-09-21 00:43:13.828 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.828 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jpaVendorAdapter': no URL paths identified
+2016-09-21 00:43:13.829 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'entityManagerFactoryBuilder': no URL paths identified
+2016-09-21 00:43:13.829 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'entityManagerFactory': no URL paths identified
+2016-09-21 00:43:13.829 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.jpa.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.829 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dataSourceInitializedPublisher': no URL paths identified
+2016-09-21 00:43:13.830 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DiskSpaceHealthIndicatorConfiguration': no URL paths identified
+2016-09-21 00:43:13.830 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'diskSpaceHealthIndicator': no URL paths identified
+2016-09-21 00:43:13.830 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'diskSpaceHealthIndicatorProperties': no URL paths identified
+2016-09-21 00:43:13.830 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': no URL paths identified
+2016-09-21 00:43:13.831 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dbHealthIndicator': no URL paths identified
+2016-09-21 00:43:13.831 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.831 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'healthAggregator': no URL paths identified
+2016-09-21 00:43:13.831 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'management.health.status.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.831 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricRepositoryAutoConfiguration$FastMetricServicesConfiguration': no URL paths identified
+2016-09-21 00:43:13.832 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'counterBuffers': no URL paths identified
+2016-09-21 00:43:13.840 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'gaugeBuffers': no URL paths identified
+2016-09-21 00:43:13.844 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'actuatorMetricReader': no URL paths identified
+2016-09-21 00:43:13.844 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'counterService': no URL paths identified
+2016-09-21 00:43:13.845 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'gaugeService': no URL paths identified
+2016-09-21 00:43:13.845 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricRepositoryAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.845 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.845 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanExporter': no URL paths identified
+2016-09-21 00:43:13.845 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectNamingStrategy': no URL paths identified
+2016-09-21 00:43:13.845 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanServer': no URL paths identified
+2016-09-21 00:43:13.846 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.PublicMetricsAutoConfiguration$TomcatMetricsConfiguration': no URL paths identified
+2016-09-21 00:43:13.846 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'tomcatPublicMetrics': no URL paths identified
+2016-09-21 00:43:13.846 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.PublicMetricsAutoConfiguration$DataSourceMetricsConfiguration': no URL paths identified
+2016-09-21 00:43:13.846 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dataSourcePublicMetrics': no URL paths identified
+2016-09-21 00:43:13.847 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.PublicMetricsAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.847 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemPublicMetrics': no URL paths identified
+2016-09-21 00:43:13.847 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricReaderPublicMetrics': no URL paths identified
+2016-09-21 00:43:13.848 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$InfoPropertiesConfiguration': no URL paths identified
+2016-09-21 00:43:13.848 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$RequestMappingEndpointConfiguration': no URL paths identified
+2016-09-21 00:43:13.848 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingEndpoint': no URL paths identified
+2016-09-21 00:43:13.848 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.848 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environmentEndpoint': no URL paths identified
+2016-09-21 00:43:13.848 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'healthEndpoint': no URL paths identified
+2016-09-21 00:43:13.849 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beansEndpoint': no URL paths identified
+2016-09-21 00:43:13.849 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'infoEndpoint': no URL paths identified
+2016-09-21 00:43:13.849 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricsEndpoint': no URL paths identified
+2016-09-21 00:43:13.850 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'traceEndpoint': no URL paths identified
+2016-09-21 00:43:13.850 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dumpEndpoint': no URL paths identified
+2016-09-21 00:43:13.850 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autoConfigurationReportEndpoint': no URL paths identified
+2016-09-21 00:43:13.850 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'shutdownEndpoint': no URL paths identified
+2016-09-21 00:43:13.850 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'configurationPropertiesReportEndpoint': no URL paths identified
+2016-09-21 00:43:13.851 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.851 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointMBeanExportAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.851 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpointMBeanExporter': no URL paths identified
+2016-09-21 00:43:13.851 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints.jmx.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.851 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.851 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'serverProperties': no URL paths identified
+2016-09-21 00:43:13.852 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'duplicateServerPropertiesDetector': no URL paths identified
+2016-09-21 00:43:13.854 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.ManagementServerPropertiesAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.854 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'managementServerProperties': no URL paths identified
+2016-09-21 00:43:13.855 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration': no URL paths identified
+2016-09-21 00:43:13.855 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapperBuilder': no URL paths identified
+2016-09-21 00:43:13.855 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.jackson.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.855 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration': no URL paths identified
+2016-09-21 00:43:13.855 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapper': no URL paths identified
+2016-09-21 00:43:13.856 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.856 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration': no URL paths identified
+2016-09-21 00:43:13.856 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'stringHttpMessageConverter': no URL paths identified
+2016-09-21 00:43:13.856 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.encoding.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.856 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration': no URL paths identified
+2016-09-21 00:43:13.857 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mappingJackson2HttpMessageConverter': no URL paths identified
+2016-09-21 00:43:13.857 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration': no URL paths identified
+2016-09-21 00:43:13.857 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.857 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageConverters': no URL paths identified
+2016-09-21 00:43:13.858 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcManagementContextConfiguration': no URL paths identified
+2016-09-21 00:43:13.858 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpointHandlerMapping': no URL paths identified
+2016-09-21 00:43:13.858 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcEndpoints': no URL paths identified
+2016-09-21 00:43:13.858 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environmentMvcEndpoint': no URL paths identified
+2016-09-21 00:43:13.859 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'healthMvcEndpoint': no URL paths identified
+2016-09-21 00:43:13.861 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricsMvcEndpoint': no URL paths identified
+2016-09-21 00:43:13.861 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'logfileMvcEndpoint': no URL paths identified
+2016-09-21 00:43:13.862 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints.health.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.862 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints.cors.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.862 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration$EndpointWebMvcConfiguration': no URL paths identified
+2016-09-21 00:43:13.862 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration$ApplicationContextFilterConfiguration': no URL paths identified
+2016-09-21 00:43:13.863 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'applicationContextIdFilter': no URL paths identified
+2016-09-21 00:43:13.863 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.863 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'managementContextResolver': no URL paths identified
+2016-09-21 00:43:13.864 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'managementServletContext': no URL paths identified
+2016-09-21 00:43:13.864 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricExportAutoConfiguration$MetricExportPropertiesConfiguration': no URL paths identified
+2016-09-21 00:43:13.864 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.metrics.export.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.865 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.scheduling.annotation.SchedulingConfiguration': no URL paths identified
+2016-09-21 00:43:13.865 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor': no URL paths identified
+2016-09-21 00:43:13.866 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricExportAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.866 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricWritersMetricExporter': no URL paths identified
+2016-09-21 00:43:13.866 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricFilterAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.866 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricFilter': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.TraceRepositoryAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'traceRepository': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.TraceWebFilterAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'webRequestLoggingFilter': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'management.trace.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$JdkDynamicAutoProxyConfiguration': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'persistenceExceptionTranslationPostProcessor': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'emBeanDefinitionRegistrarPostProcessor': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jpaMappingContext': no URL paths identified
+2016-09-21 00:43:13.867 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jpaContext': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mestoDAO': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mestoRepository': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.data.web.config.SpringDataWebConfiguration': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'pageableResolver': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'sortResolver': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.data.web.config.SpringDataJacksonConfiguration': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonGeoModule': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration$H2ConsoleSecurityConfiguration': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'h2ConsoleSecurityConfigurer': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'h2Console': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.h2.console.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.868 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.SecurityFilterAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'securityFilterChainRegistration': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'transactionTemplate': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'characterEncodingFilter': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartConfigElement': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartResolver': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipart.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'classPathFileSystemWatcher': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'classPathRestartStrategy': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'hateoasObjenesisCacheDisabler': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'fileSystemWatcherFactory': no URL paths identified
+2016-09-21 00:43:13.869 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'liveReloadServer': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'optionalLiveReloadServer': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.devtools.CONFIGURATION_PROPERTIES': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.orm.jpa.SharedEntityManagerCreator#0': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autoConfigurationReport': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springApplicationArguments': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootLoggingSystem': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environment': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemProperties': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemEnvironment': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageSource': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'servletContext': no URL paths identified
+2016-09-21 00:43:13.870 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextParameters': no URL paths identified
+2016-09-21 00:43:13.871 DEBUG 5241 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextAttributes': no URL paths identified
+2016-09-21 00:43:13.919  INFO 5241 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-21 00:43:13.920  INFO 5241 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-21 00:43:13.996 DEBUG 5241 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Looking for exception mappings: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e133b30: startup date [Wed Sep 21 00:42:57 CEST 2016]; root of context hierarchy
+2016-09-21 00:43:14.062  INFO 5241 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-21 00:43:15.345  WARN 5241 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2016-09-21 00:43:15.498 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [Management Server] PropertySource with lowest search precedence
+2016-09-21 00:43:15.678 DEBUG 5241 --- [restartedMain] o.s.w.s.resource.ResourceUrlProvider     : Looking for resource handler mappings
+2016-09-21 00:43:15.680 DEBUG 5241 --- [restartedMain] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@37f38f7c]
+2016-09-21 00:43:15.681 DEBUG 5241 --- [restartedMain] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@429009ea]
+2016-09-21 00:43:15.681 DEBUG 5241 --- [restartedMain] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@37481067]
+2016-09-21 00:43:15.820 DEBUG 5241 --- [restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [server.ports] PropertySource with highest search precedence
+2016-09-21 00:43:15.830  INFO 5241 --- [restartedMain] projekat.Application                     : Started Application in 19.119 seconds (JVM running for 20.053)
+2016-09-21 00:43:37.390  WARN 5241 --- [http-nio-9090-exec-2] o.a.m.s.r.html.HtmlGridRendererBase      : PanelGrid {Component-Path : [Class: javax.faces.component.UIViewRoot,ViewId: /login.xhtml][Class: javax.faces.component.html.HtmlBody,Id: j_id_4][Class: javax.faces.component.html.HtmlPanelGrid,Id: grid] Location: /login.xhtml at line 12 and column 64} has not enough children. Child count should be a multiple of the columns attribute.
+2016-09-21 00:43:43.040 DEBUG 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing servlet 'dispatcherServlet'
+2016-09-21 00:43:43.042  INFO 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-09-21 00:43:43.042 DEBUG 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@26a38b20]
+2016-09-21 00:43:43.049 DEBUG 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@38efedf]
+2016-09-21 00:43:43.055 DEBUG 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@70612a1b]
+2016-09-21 00:43:43.062 DEBUG 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6eb6d714]
+2016-09-21 00:43:43.071 DEBUG 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@21831127]
+2016-09-21 00:43:43.071 DEBUG 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+2016-09-21 00:43:43.071  INFO 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2016-09-21 00:43:43.071 DEBUG 5241 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Servlet 'dispatcherServlet' configured successfully
+2016-09-21 00:43:44.172 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places"
+2016-09-21 00:43:44.282 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:43:44.827 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places" resulted in 200 ()
+2016-09-21 00:43:44.830 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.util.LinkedList<projekat.domen.Mesto>>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:43:45.478 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/resources/pictures/header.jpg]
+2016-09-21 00:43:45.503 DEBUG 5241 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /resources/pictures/header.jpg
+2016-09-21 00:43:45.511 DEBUG 5241 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Did not find handler method for [/resources/pictures/header.jpg]
+2016-09-21 00:43:45.512 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns for request [/resources/pictures/header.jpg] are [/**]
+2016-09-21 00:43:45.514 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : URI Template variables for request [/resources/pictures/header.jpg] are {}
+2016-09-21 00:43:45.516 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapping [/resources/pictures/header.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@37481067]]] and 1 interceptor
+2016-09-21 00:43:45.518 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/resources/pictures/header.jpg] is: -1
+2016-09-21 00:43:45.532 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2016-09-21 00:43:45.533 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2016-09-21 00:43:51.934 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places"
+2016-09-21 00:43:51.935 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:43:51.984 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places" resulted in 200 ()
+2016-09-21 00:43:51.985 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.util.LinkedList<projekat.domen.Mesto>>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:43:52.487 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/resources/pictures/header.jpg]
+2016-09-21 00:43:52.493 DEBUG 5241 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /resources/pictures/header.jpg
+2016-09-21 00:43:52.495 DEBUG 5241 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Did not find handler method for [/resources/pictures/header.jpg]
+2016-09-21 00:43:52.498 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns for request [/resources/pictures/header.jpg] are [/**]
+2016-09-21 00:43:52.499 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : URI Template variables for request [/resources/pictures/header.jpg] are {}
+2016-09-21 00:43:52.500 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapping [/resources/pictures/header.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@37481067]]] and 1 interceptor
+2016-09-21 00:43:52.508 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/resources/pictures/header.jpg] is: -1
+2016-09-21 00:43:52.517 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2016-09-21 00:43:52.517 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2016-09-21 00:43:53.830 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/clients/search/"
+2016-09-21 00:43:53.857 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:43:54.049 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/clients/search/" resulted in 200 ()
+2016-09-21 00:43:54.051 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.util.List<projekat.domen.Klijent>>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:43:58.161 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places"
+2016-09-21 00:43:58.162 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:43:58.204 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places" resulted in 200 ()
+2016-09-21 00:43:58.205 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.util.LinkedList<projekat.domen.Mesto>>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:43:58.649 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/resources/pictures/header.jpg]
+2016-09-21 00:43:58.654 DEBUG 5241 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /resources/pictures/header.jpg
+2016-09-21 00:43:58.655 DEBUG 5241 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Did not find handler method for [/resources/pictures/header.jpg]
+2016-09-21 00:43:58.655 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns for request [/resources/pictures/header.jpg] are [/**]
+2016-09-21 00:43:58.655 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : URI Template variables for request [/resources/pictures/header.jpg] are {}
+2016-09-21 00:43:58.655 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapping [/resources/pictures/header.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@37481067]]] and 1 interceptor
+2016-09-21 00:43:58.656 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/resources/pictures/header.jpg] is: -1
+2016-09-21 00:43:58.666 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2016-09-21 00:43:58.668 DEBUG 5241 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2016-09-21 00:44:01.743 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places/11000"
+2016-09-21 00:44:01.745 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:44:01.793 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places/11000" resulted in 200 ()
+2016-09-21 00:44:01.793 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<projekat.domen.Mesto>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:44:04.592 DEBUG 5241 --- [http-nio-9090-exec-6] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places/11000"
+2016-09-21 00:44:04.593 DEBUG 5241 --- [http-nio-9090-exec-6] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:44:04.639 DEBUG 5241 --- [http-nio-9090-exec-6] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places/11000" resulted in 200 ()
+2016-09-21 00:44:04.640 DEBUG 5241 --- [http-nio-9090-exec-6] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<projekat.domen.Mesto>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:44:06.779 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places"
+2016-09-21 00:44:06.779 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:44:06.834 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places" resulted in 200 ()
+2016-09-21 00:44:06.836 DEBUG 5241 --- [http-nio-9090-exec-1] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.util.LinkedList<projekat.domen.Mesto>>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:44:08.805 DEBUG 5241 --- [http-nio-9090-exec-9] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places"
+2016-09-21 00:44:08.805 DEBUG 5241 --- [http-nio-9090-exec-9] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:44:08.844 DEBUG 5241 --- [http-nio-9090-exec-9] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places" resulted in 200 ()
+2016-09-21 00:44:08.844 DEBUG 5241 --- [http-nio-9090-exec-9] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.util.LinkedList<projekat.domen.Mesto>>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:44:08.856 DEBUG 5241 --- [http-nio-9090-exec-9] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/clients/search/"
+2016-09-21 00:44:08.857 DEBUG 5241 --- [http-nio-9090-exec-9] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:44:08.971 DEBUG 5241 --- [http-nio-9090-exec-9] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/clients/search/" resulted in 200 ()
+2016-09-21 00:44:08.973 DEBUG 5241 --- [http-nio-9090-exec-9] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.util.List<projekat.domen.Klijent>>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:44:12.355 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places"
+2016-09-21 00:44:12.355 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:44:12.395 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places" resulted in 200 ()
+2016-09-21 00:44:12.396 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.util.LinkedList<projekat.domen.Mesto>>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:44:12.927 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/resources/pictures/header.jpg]
+2016-09-21 00:44:12.931 DEBUG 5241 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /resources/pictures/header.jpg
+2016-09-21 00:44:12.933 DEBUG 5241 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Did not find handler method for [/resources/pictures/header.jpg]
+2016-09-21 00:44:12.934 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns for request [/resources/pictures/header.jpg] are [/**]
+2016-09-21 00:44:12.935 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : URI Template variables for request [/resources/pictures/header.jpg] are {}
+2016-09-21 00:44:12.935 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapping [/resources/pictures/header.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@37481067]]] and 1 interceptor
+2016-09-21 00:44:12.936 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/resources/pictures/header.jpg] is: -1
+2016-09-21 00:44:12.938 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2016-09-21 00:44:12.939 DEBUG 5241 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2016-09-21 00:44:17.267 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : Created GET request for "https://localhost:8443/secure/rest/places/34000"
+2016-09-21 00:44:17.268 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:44:17.308 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : GET request for "https://localhost:8443/secure/rest/places/34000" resulted in 200 ()
+2016-09-21 00:44:17.309 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<projekat.domen.Mesto>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:44:17.322 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : Created PUT request for "https://localhost:8443/secure/rest/clients/"
+2016-09-21 00:44:17.327 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/*+json]
+2016-09-21 00:44:17.335 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : Writing [[Marijana Jovic]] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]
+2016-09-21 00:44:17.733 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : PUT request for "https://localhost:8443/secure/rest/clients/" resulted in 200 ()
+2016-09-21 00:44:17.734 DEBUG 5241 --- [http-nio-9090-exec-5] o.s.web.client.RestTemplate              : Reading [projekat.rest_client.Response<java.lang.String>] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b121dd8]

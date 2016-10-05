@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+
+    </h:head>
+
+    <h:body>
+        <ui:composition template="../WEB-INF/osnovniTem.xhtml">
+
+            <ui:define name="content" >
+                <h:form >
+                    <p:panel id="panel"  style="width: 70%">
+                        <p:growl id="growl" life="3000" autoUpdate="true"/>
+                        <h2>#{msg['new_vehicle_entry']}</h2>
+                        <h:panelGrid id="grid" columns="3" cellpadding="5">
+
+                            <p:outputLabel value="#{msg['brand']}: " />
+                            <p:selectOneMenu id="cmbMarka" value="#{mbUnosAutomobila.marka}" converter="#{markaKonverter}" 
+                                             validatorMessage="#{msg['brand_not_selected']}"  style="width: 175px"> 
+                                <p:ajax
+                                    listener="#{mbUnosAutomobila.vratiModele()}"
+                                    update="cmbModel"/>
+                                <f:selectItem itemLabel="#{msg['select_brand']}" itemValue="#{null}"
+                                              noSelectionOption="true" />
+                                <f:selectItems  value="#{mbUnosAutomobila.listaMarki}" var="marka" 
+                                                itemValue="#{marka}" itemLabel="#{marka.naziv}"/>
+                                                
+                                <!--<f:validateRequired/>-->
+                            </p:selectOneMenu>                        
+                            <p:message for="cmbMarka" display="text"/>
+
+                            <p:outputLabel value="#{msg['model']}: " />
+                            <p:selectOneMenu  id="cmbModel" value="#{mbUnosAutomobila.automobil.model}" 
+                                              converter="#{modelKonverter}"
+                                              validatorMessage="#{msg['model_not_selected']}" style="width: 175px">
+                                <f:selectItem itemLabel="#{msg['select_model']}" itemValue="#{null}"
+                                              noSelectionOption="true" />
+                                <f:selectItems value="#{mbUnosAutomobila.listaModela}" var="modd" 
+                                               itemValue="#{modd}" itemLabel="#{modd.naziv}" />
+                                <f:validateRequired/>
+
+                            </p:selectOneMenu>
+                            <p:message for="cmbModel" display="text"/>
+
+                            <p:outputLabel value="#{msg['reg_number']}:" for="txtRegBr"/>
+                            <p:inputText id="txtRegBr" value="#{mbUnosAutomobila.automobil.registarskiBroj}" 
+                                         validatorMessage="#{msg['reg_number_not_entered']}">
+                                <f:validateRequired/>
+                            </p:inputText>
+                            <p:message for="txtRegBr" display="icon"/>
+
+                            <p:outputLabel value="#{msg['chassis_number']}:" for="txtBrSas" />
+                            <p:inputText id="txtBrSas" value="#{mbUnosAutomobila.automobil.brojSasije}" 
+                                         validatorMessage="Niste uneli broj sasije">
+                                <f:validateRequired />
+                            </p:inputText>
+                            <p:message for="txtBrSas" display="icon"/>
+
+
+                            <p:outputLabel value="#{msg['year_built']} " for="txtGod"/>
+                            <p:inputText id="txtGod" value="#{mbUnosAutomobila.automobil.godiste}" 
+                                         validatorMessage="Godiste nije dobro uneto" required="true" 
+                                         requiredMessage="Unesite godiste" converterMessage="Godiste je broj">
+                               
+                                <f:validateDoubleRange minimum="1990" maximum="2015" />
+                                
+                            </p:inputText>
+                            <p:message for="txtGod" display="icon"/>
+
+                            <p:outputLabel value="#{msg['cubic_capacity']}: " for="txtKub" />
+                            <p:inputText id="txtKub" validatorMessage="Kubikaza mora biti pozitivan ceo broj"
+                                         required="true" 
+                                         requiredMessage="Unesite kubikazu" converterMessage="Kubikaza je broj">
+                                <f:validateDoubleRange minimum="1500" maximum="4000" />
+                            </p:inputText>
+                            <p:message for="txtKub" display="icon"/>
+                            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+
+                            <p:commandButton id="btn" value="#{msg['save']}" action="#{mbUnosAutomobila.sacuvaj()}"
+                                             update="grid"/>
+                        </h:panelGrid>
+                    </p:panel>
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

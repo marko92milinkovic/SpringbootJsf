@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/default.css"/>
+        <h:outputStylesheet name="./css/cssLayout.css"/>
+        <title>Facelets Template</title>
+    </h:head>
+
+    <h:body>
+
+        <div id="top">
+            <h:form>
+                <p:menubar>
+                    <p:submenu label="Unos">
+                        <p:menuitem action="unosAutomobila.xhtml?faces-redirect=true" value="Unos automobila" ajax="false"/>
+                        <p:menuitem action="unosKlijenata.xhtml?faces-redirect=true" value="Unos klijenata" ajax="false"/>
+                    </p:submenu>
+                    <p:submenu label="Pretraga">
+                        <p:menuitem action="pretragaKlijenata_1.xhtml?faces-redirect=true" value="Pretraga klijenata" ajax="false"/>
+                    </p:submenu>
+                </p:menubar>
+            </h:form>
+        </div>
+        <div>
+            <div>
+                <div id="right">
+                    <ui:insert name="right">Right</ui:insert>
+                </div>
+                <div id="content" class="right_content">
+                    <ui:insert name="content">Content</ui:insert>
+                </div>
+            </div>
+        </div>
+
+    </h:body>
+
+</html>
